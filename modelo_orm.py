@@ -129,7 +129,7 @@ class ObrasUrbanas(BaseModel):
     lng = CharField()
 
     class Meta:
-        db_table = "obras_urbanas"
+        db_table = "obras_urbanas.db"
 
 
 # Creamos las tablas correspondientes a las clases del modelo
